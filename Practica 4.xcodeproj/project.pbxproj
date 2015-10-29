@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDA46ACC1BE2ABAE00EF79CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA46ACB1BE2ABAE00EF79CC /* AppDelegate.swift */; };
+		CDA46ACE1BE2ABAE00EF79CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA46ACD1BE2ABAE00EF79CC /* ViewController.swift */; };
+		CDA46AD11BE2ABAF00EF79CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA46ACF1BE2ABAF00EF79CC /* Main.storyboard */; };
+		CDA46AD31BE2ABAF00EF79CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA46AD21BE2ABAF00EF79CC /* Assets.xcassets */; };
+		CDA46AD61BE2ABAF00EF79CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA46AD41BE2ABAF00EF79CC /* LaunchScreen.storyboard */; };
+		CDA46AE11BE2ABB000EF79CC /* Practica_4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA46AE01BE2ABB000EF79CC /* Practica_4Tests.swift */; };
+		CDA46AEC1BE2ABB000EF79CC /* Practica_4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA46AEB1BE2ABB000EF79CC /* Practica_4UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDA46ADD1BE2ABB000EF79CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDA46AC01BE2ABAD00EF79CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDA46AC71BE2ABAD00EF79CC;
+			remoteInfo = "Practica 4";
+		};
+		CDA46AE81BE2ABB000EF79CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDA46AC01BE2ABAD00EF79CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDA46AC71BE2ABAD00EF79CC;
+			remoteInfo = "Practica 4";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDA46AC81BE2ABAD00EF79CC /* Practica 4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Practica 4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA46ACB1BE2ABAE00EF79CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDA46ACD1BE2ABAE00EF79CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDA46AD01BE2ABAF00EF79CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDA46AD21BE2ABAF00EF79CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDA46AD51BE2ABAF00EF79CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDA46AD71BE2ABAF00EF79CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA46ADC1BE2ABB000EF79CC /* Practica 4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Practica 4Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA46AE01BE2ABB000EF79CC /* Practica_4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practica_4Tests.swift; sourceTree = "<group>"; };
+		CDA46AE21BE2ABB000EF79CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA46AE71BE2ABB000EF79CC /* Practica 4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Practica 4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA46AEB1BE2ABB000EF79CC /* Practica_4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practica_4UITests.swift; sourceTree = "<group>"; };
+		CDA46AED1BE2ABB000EF79CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDA46AC51BE2ABAD00EF79CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA46AD91BE2ABB000EF79CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA46AE41BE2ABB000EF79CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDA46ABF1BE2ABAD00EF79CC = {
+			isa = PBXGroup;
+			children = (
+				CDA46ACA1BE2ABAD00EF79CC /* Practica 4 */,
+				CDA46ADF1BE2ABB000EF79CC /* Practica 4Tests */,
+				CDA46AEA1BE2ABB000EF79CC /* Practica 4UITests */,
+				CDA46AC91BE2ABAD00EF79CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDA46AC91BE2ABAD00EF79CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDA46AC81BE2ABAD00EF79CC /* Practica 4.app */,
+				CDA46ADC1BE2ABB000EF79CC /* Practica 4Tests.xctest */,
+				CDA46AE71BE2ABB000EF79CC /* Practica 4UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDA46ACA1BE2ABAD00EF79CC /* Practica 4 */ = {
+			isa = PBXGroup;
+			children = (
+				CDA46ACB1BE2ABAE00EF79CC /* AppDelegate.swift */,
+				CDA46ACD1BE2ABAE00EF79CC /* ViewController.swift */,
+				CDA46ACF1BE2ABAF00EF79CC /* Main.storyboard */,
+				CDA46AD21BE2ABAF00EF79CC /* Assets.xcassets */,
+				CDA46AD41BE2ABAF00EF79CC /* LaunchScreen.storyboard */,
+				CDA46AD71BE2ABAF00EF79CC /* Info.plist */,
+			);
+			path = "Practica 4";
+			sourceTree = "<group>";
+		};
+		CDA46ADF1BE2ABB000EF79CC /* Practica 4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CDA46AE01BE2ABB000EF79CC /* Practica_4Tests.swift */,
+				CDA46AE21BE2ABB000EF79CC /* Info.plist */,
+			);
+			path = "Practica 4Tests";
+			sourceTree = "<group>";
+		};
+		CDA46AEA1BE2ABB000EF79CC /* Practica 4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDA46AEB1BE2ABB000EF79CC /* Practica_4UITests.swift */,
+				CDA46AED1BE2ABB000EF79CC /* Info.plist */,
+			);
+			path = "Practica 4UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDA46AC71BE2ABAD00EF79CC /* Practica 4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA46AF01BE2ABB000EF79CC /* Build configuration list for PBXNativeTarget "Practica 4" */;
+			buildPhases = (
+				CDA46AC41BE2ABAD00EF79CC /* Sources */,
+				CDA46AC51BE2ABAD00EF79CC /* Frameworks */,
+				CDA46AC61BE2ABAD00EF79CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Practica 4";
+			productName = "Practica 4";
+			productReference = CDA46AC81BE2ABAD00EF79CC /* Practica 4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDA46ADB1BE2ABB000EF79CC /* Practica 4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA46AF31BE2ABB000EF79CC /* Build configuration list for PBXNativeTarget "Practica 4Tests" */;
+			buildPhases = (
+				CDA46AD81BE2ABB000EF79CC /* Sources */,
+				CDA46AD91BE2ABB000EF79CC /* Frameworks */,
+				CDA46ADA1BE2ABB000EF79CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDA46ADE1BE2ABB000EF79CC /* PBXTargetDependency */,
+			);
+			name = "Practica 4Tests";
+			productName = "Practica 4Tests";
+			productReference = CDA46ADC1BE2ABB000EF79CC /* Practica 4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDA46AE61BE2ABB000EF79CC /* Practica 4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA46AF61BE2ABB000EF79CC /* Build configuration list for PBXNativeTarget "Practica 4UITests" */;
+			buildPhases = (
+				CDA46AE31BE2ABB000EF79CC /* Sources */,
+				CDA46AE41BE2ABB000EF79CC /* Frameworks */,
+				CDA46AE51BE2ABB000EF79CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDA46AE91BE2ABB000EF79CC /* PBXTargetDependency */,
+			);
+			name = "Practica 4UITests";
+			productName = "Practica 4UITests";
+			productReference = CDA46AE71BE2ABB000EF79CC /* Practica 4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDA46AC01BE2ABAD00EF79CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Enrique Conde Sanchez";
+				TargetAttributes = {
+					CDA46AC71BE2ABAD00EF79CC = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					CDA46ADB1BE2ABB000EF79CC = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CDA46AC71BE2ABAD00EF79CC;
+					};
+					CDA46AE61BE2ABB000EF79CC = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CDA46AC71BE2ABAD00EF79CC;
+					};
+				};
+			};
+			buildConfigurationList = CDA46AC31BE2ABAD00EF79CC /* Build configuration list for PBXProject "Practica 4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDA46ABF1BE2ABAD00EF79CC;
+			productRefGroup = CDA46AC91BE2ABAD00EF79CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDA46AC71BE2ABAD00EF79CC /* Practica 4 */,
+				CDA46ADB1BE2ABB000EF79CC /* Practica 4Tests */,
+				CDA46AE61BE2ABB000EF79CC /* Practica 4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDA46AC61BE2ABAD00EF79CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA46AD61BE2ABAF00EF79CC /* LaunchScreen.storyboard in Resources */,
+				CDA46AD31BE2ABAF00EF79CC /* Assets.xcassets in Resources */,
+				CDA46AD11BE2ABAF00EF79CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA46ADA1BE2ABB000EF79CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA46AE51BE2ABB000EF79CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDA46AC41BE2ABAD00EF79CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA46ACE1BE2ABAE00EF79CC /* ViewController.swift in Sources */,
+				CDA46ACC1BE2ABAE00EF79CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA46AD81BE2ABB000EF79CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA46AE11BE2ABB000EF79CC /* Practica_4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA46AE31BE2ABB000EF79CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA46AEC1BE2ABB000EF79CC /* Practica_4UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDA46ADE1BE2ABB000EF79CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDA46AC71BE2ABAD00EF79CC /* Practica 4 */;
+			targetProxy = CDA46ADD1BE2ABB000EF79CC /* PBXContainerItemProxy */;
+		};
+		CDA46AE91BE2ABB000EF79CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDA46AC71BE2ABAD00EF79CC /* Practica 4 */;
+			targetProxy = CDA46AE81BE2ABB000EF79CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDA46ACF1BE2ABAF00EF79CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDA46AD01BE2ABAF00EF79CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDA46AD41BE2ABAF00EF79CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDA46AD51BE2ABAF00EF79CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDA46AEE1BE2ABB000EF79CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDA46AEF1BE2ABB000EF79CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDA46AF11BE2ABB000EF79CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Practica 4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Practica-4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDA46AF21BE2ABB000EF79CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Practica 4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Practica-4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CDA46AF41BE2ABB000EF79CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Practica 4Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Practica-4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Practica 4.app/Practica 4";
+			};
+			name = Debug;
+		};
+		CDA46AF51BE2ABB000EF79CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Practica 4Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Practica-4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Practica 4.app/Practica 4";
+			};
+			name = Release;
+		};
+		CDA46AF71BE2ABB000EF79CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Practica 4UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Practica-4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Practica 4";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CDA46AF81BE2ABB000EF79CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Practica 4UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Practica-4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Practica 4";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDA46AC31BE2ABAD00EF79CC /* Build configuration list for PBXProject "Practica 4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA46AEE1BE2ABB000EF79CC /* Debug */,
+				CDA46AEF1BE2ABB000EF79CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDA46AF01BE2ABB000EF79CC /* Build configuration list for PBXNativeTarget "Practica 4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA46AF11BE2ABB000EF79CC /* Debug */,
+				CDA46AF21BE2ABB000EF79CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDA46AF31BE2ABB000EF79CC /* Build configuration list for PBXNativeTarget "Practica 4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA46AF41BE2ABB000EF79CC /* Debug */,
+				CDA46AF51BE2ABB000EF79CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDA46AF61BE2ABB000EF79CC /* Build configuration list for PBXNativeTarget "Practica 4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA46AF71BE2ABB000EF79CC /* Debug */,
+				CDA46AF81BE2ABB000EF79CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDA46AC01BE2ABAD00EF79CC /* Project object */;
+}
