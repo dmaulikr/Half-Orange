@@ -10,10 +10,13 @@
 		CDA46ACC1BE2ABAE00EF79CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA46ACB1BE2ABAE00EF79CC /* AppDelegate.swift */; };
 		CDA46ACE1BE2ABAE00EF79CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA46ACD1BE2ABAE00EF79CC /* ViewController.swift */; };
 		CDA46AD11BE2ABAF00EF79CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA46ACF1BE2ABAF00EF79CC /* Main.storyboard */; };
-		CDA46AD31BE2ABAF00EF79CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA46AD21BE2ABAF00EF79CC /* Assets.xcassets */; };
 		CDA46AD61BE2ABAF00EF79CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA46AD41BE2ABAF00EF79CC /* LaunchScreen.storyboard */; };
 		CDA46AE11BE2ABB000EF79CC /* Practica_4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA46AE01BE2ABB000EF79CC /* Practica_4Tests.swift */; };
 		CDA46AEC1BE2ABB000EF79CC /* Practica_4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA46AEB1BE2ABB000EF79CC /* Practica_4UITests.swift */; };
+		CDA46AFA1BE2B3AB00EF79CC /* BirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA46AF91BE2B3AB00EF79CC /* BirthdayViewController.swift */; };
+		CDA46AFC1BE2B54600EF79CC /* LoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA46AFB1BE2B54600EF79CC /* LoveViewController.swift */; };
+		CDA46AFE1BE2B6BA00EF79CC /* DeathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA46AFD1BE2B6BA00EF79CC /* DeathViewController.swift */; };
+		CDA46B3C1BE3717500EF79CC /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA46B3B1BE3717500EF79CC /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +37,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CDA46AC81BE2ABAD00EF79CC /* Practica 4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Practica 4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA46AC81BE2ABAD00EF79CC /* Half_Orange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Half_Orange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA46ACB1BE2ABAE00EF79CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDA46ACD1BE2ABAE00EF79CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CDA46AD01BE2ABAF00EF79CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CDA46AD21BE2ABAF00EF79CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDA46AD51BE2ABAF00EF79CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDA46AD71BE2ABAF00EF79CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CDA46ADC1BE2ABB000EF79CC /* Practica 4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Practica 4Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA46ADC1BE2ABB000EF79CC /* Half_Orange.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Half_Orange.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA46AE01BE2ABB000EF79CC /* Practica_4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practica_4Tests.swift; sourceTree = "<group>"; };
 		CDA46AE21BE2ABB000EF79CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CDA46AE71BE2ABB000EF79CC /* Practica 4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Practica 4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA46AE71BE2ABB000EF79CC /* Half_Orange.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Half_Orange.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA46AEB1BE2ABB000EF79CC /* Practica_4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practica_4UITests.swift; sourceTree = "<group>"; };
 		CDA46AED1BE2ABB000EF79CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA46AF91BE2B3AB00EF79CC /* BirthdayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirthdayViewController.swift; sourceTree = "<group>"; };
+		CDA46AFB1BE2B54600EF79CC /* LoveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoveViewController.swift; sourceTree = "<group>"; };
+		CDA46AFD1BE2B6BA00EF79CC /* DeathViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeathViewController.swift; sourceTree = "<group>"; };
+		CDA46B3B1BE3717500EF79CC /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = ../Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +93,9 @@
 		CDA46AC91BE2ABAD00EF79CC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CDA46AC81BE2ABAD00EF79CC /* Practica 4.app */,
-				CDA46ADC1BE2ABB000EF79CC /* Practica 4Tests.xctest */,
-				CDA46AE71BE2ABB000EF79CC /* Practica 4UITests.xctest */,
+				CDA46AC81BE2ABAD00EF79CC /* Half_Orange.app */,
+				CDA46ADC1BE2ABB000EF79CC /* Half_Orange.xctest */,
+				CDA46AE71BE2ABB000EF79CC /* Half_Orange.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,10 +103,13 @@
 		CDA46ACA1BE2ABAD00EF79CC /* Practica 4 */ = {
 			isa = PBXGroup;
 			children = (
+				CDA46B3B1BE3717500EF79CC /* Media.xcassets */,
 				CDA46ACB1BE2ABAE00EF79CC /* AppDelegate.swift */,
 				CDA46ACD1BE2ABAE00EF79CC /* ViewController.swift */,
+				CDA46AF91BE2B3AB00EF79CC /* BirthdayViewController.swift */,
+				CDA46AFB1BE2B54600EF79CC /* LoveViewController.swift */,
+				CDA46AFD1BE2B6BA00EF79CC /* DeathViewController.swift */,
 				CDA46ACF1BE2ABAF00EF79CC /* Main.storyboard */,
-				CDA46AD21BE2ABAF00EF79CC /* Assets.xcassets */,
 				CDA46AD41BE2ABAF00EF79CC /* LaunchScreen.storyboard */,
 				CDA46AD71BE2ABAF00EF79CC /* Info.plist */,
 			);
@@ -128,9 +137,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CDA46AC71BE2ABAD00EF79CC /* Practica 4 */ = {
+		CDA46AC71BE2ABAD00EF79CC /* Half_Orange */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDA46AF01BE2ABB000EF79CC /* Build configuration list for PBXNativeTarget "Practica 4" */;
+			buildConfigurationList = CDA46AF01BE2ABB000EF79CC /* Build configuration list for PBXNativeTarget "Half_Orange" */;
 			buildPhases = (
 				CDA46AC41BE2ABAD00EF79CC /* Sources */,
 				CDA46AC51BE2ABAD00EF79CC /* Frameworks */,
@@ -140,14 +149,14 @@
 			);
 			dependencies = (
 			);
-			name = "Practica 4";
+			name = Half_Orange;
 			productName = "Practica 4";
-			productReference = CDA46AC81BE2ABAD00EF79CC /* Practica 4.app */;
+			productReference = CDA46AC81BE2ABAD00EF79CC /* Half_Orange.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CDA46ADB1BE2ABB000EF79CC /* Practica 4Tests */ = {
+		CDA46ADB1BE2ABB000EF79CC /* Half_OrangeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDA46AF31BE2ABB000EF79CC /* Build configuration list for PBXNativeTarget "Practica 4Tests" */;
+			buildConfigurationList = CDA46AF31BE2ABB000EF79CC /* Build configuration list for PBXNativeTarget "Half_OrangeTests" */;
 			buildPhases = (
 				CDA46AD81BE2ABB000EF79CC /* Sources */,
 				CDA46AD91BE2ABB000EF79CC /* Frameworks */,
@@ -158,14 +167,14 @@
 			dependencies = (
 				CDA46ADE1BE2ABB000EF79CC /* PBXTargetDependency */,
 			);
-			name = "Practica 4Tests";
+			name = Half_OrangeTests;
 			productName = "Practica 4Tests";
-			productReference = CDA46ADC1BE2ABB000EF79CC /* Practica 4Tests.xctest */;
+			productReference = CDA46ADC1BE2ABB000EF79CC /* Half_Orange.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CDA46AE61BE2ABB000EF79CC /* Practica 4UITests */ = {
+		CDA46AE61BE2ABB000EF79CC /* Half_OrangeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDA46AF61BE2ABB000EF79CC /* Build configuration list for PBXNativeTarget "Practica 4UITests" */;
+			buildConfigurationList = CDA46AF61BE2ABB000EF79CC /* Build configuration list for PBXNativeTarget "Half_OrangeUITests" */;
 			buildPhases = (
 				CDA46AE31BE2ABB000EF79CC /* Sources */,
 				CDA46AE41BE2ABB000EF79CC /* Frameworks */,
@@ -176,9 +185,9 @@
 			dependencies = (
 				CDA46AE91BE2ABB000EF79CC /* PBXTargetDependency */,
 			);
-			name = "Practica 4UITests";
+			name = Half_OrangeUITests;
 			productName = "Practica 4UITests";
-			productReference = CDA46AE71BE2ABB000EF79CC /* Practica 4UITests.xctest */;
+			productReference = CDA46AE71BE2ABB000EF79CC /* Half_Orange.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -193,6 +202,7 @@
 				TargetAttributes = {
 					CDA46AC71BE2ABAD00EF79CC = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 4HFFLP8XBL;
 					};
 					CDA46ADB1BE2ABB000EF79CC = {
 						CreatedOnToolsVersion = 7.1;
@@ -204,7 +214,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CDA46AC31BE2ABAD00EF79CC /* Build configuration list for PBXProject "Practica 4" */;
+			buildConfigurationList = CDA46AC31BE2ABAD00EF79CC /* Build configuration list for PBXProject "Half_Orange" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,9 +227,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CDA46AC71BE2ABAD00EF79CC /* Practica 4 */,
-				CDA46ADB1BE2ABB000EF79CC /* Practica 4Tests */,
-				CDA46AE61BE2ABB000EF79CC /* Practica 4UITests */,
+				CDA46AC71BE2ABAD00EF79CC /* Half_Orange */,
+				CDA46ADB1BE2ABB000EF79CC /* Half_OrangeTests */,
+				CDA46AE61BE2ABB000EF79CC /* Half_OrangeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,7 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDA46AD61BE2ABAF00EF79CC /* LaunchScreen.storyboard in Resources */,
-				CDA46AD31BE2ABAF00EF79CC /* Assets.xcassets in Resources */,
+				CDA46B3C1BE3717500EF79CC /* Media.xcassets in Resources */,
 				CDA46AD11BE2ABAF00EF79CC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDA46AFC1BE2B54600EF79CC /* LoveViewController.swift in Sources */,
 				CDA46ACE1BE2ABAE00EF79CC /* ViewController.swift in Sources */,
 				CDA46ACC1BE2ABAE00EF79CC /* AppDelegate.swift in Sources */,
+				CDA46AFE1BE2B6BA00EF79CC /* DeathViewController.swift in Sources */,
+				CDA46AFA1BE2B3AB00EF79CC /* BirthdayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,12 +295,12 @@
 /* Begin PBXTargetDependency section */
 		CDA46ADE1BE2ABB000EF79CC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CDA46AC71BE2ABAD00EF79CC /* Practica 4 */;
+			target = CDA46AC71BE2ABAD00EF79CC /* Half_Orange */;
 			targetProxy = CDA46ADD1BE2ABB000EF79CC /* PBXContainerItemProxy */;
 		};
 		CDA46AE91BE2ABB000EF79CC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CDA46AC71BE2ABAD00EF79CC /* Practica 4 */;
+			target = CDA46AC71BE2ABAD00EF79CC /* Half_Orange */;
 			targetProxy = CDA46AE81BE2ABB000EF79CC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -399,10 +412,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Practica 4/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Practica-4";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Half-Orange";
+				PRODUCT_NAME = Half_Orange;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -410,10 +427,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Practica 4/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Practica-4";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Half-Orange";
+				PRODUCT_NAME = Half_Orange;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -424,8 +445,8 @@
 				INFOPLIST_FILE = "Practica 4Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Practica-4Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Practica 4.app/Practica 4";
+				PRODUCT_NAME = Half_Orange;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Half_Orange.app/Half_Orange";
 			};
 			name = Debug;
 		};
@@ -436,8 +457,8 @@
 				INFOPLIST_FILE = "Practica 4Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Practica-4Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Practica 4.app/Practica 4";
+				PRODUCT_NAME = Half_Orange;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Half_Orange.app/Half_Orange";
 			};
 			name = Release;
 		};
@@ -447,7 +468,7 @@
 				INFOPLIST_FILE = "Practica 4UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Practica-4UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Half_Orange;
 				TEST_TARGET_NAME = "Practica 4";
 				USES_XCTRUNNER = YES;
 			};
@@ -459,7 +480,7 @@
 				INFOPLIST_FILE = "Practica 4UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Practica-4UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Half_Orange;
 				TEST_TARGET_NAME = "Practica 4";
 				USES_XCTRUNNER = YES;
 			};
@@ -468,7 +489,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CDA46AC31BE2ABAD00EF79CC /* Build configuration list for PBXProject "Practica 4" */ = {
+		CDA46AC31BE2ABAD00EF79CC /* Build configuration list for PBXProject "Half_Orange" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CDA46AEE1BE2ABB000EF79CC /* Debug */,
@@ -477,29 +498,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CDA46AF01BE2ABB000EF79CC /* Build configuration list for PBXNativeTarget "Practica 4" */ = {
+		CDA46AF01BE2ABB000EF79CC /* Build configuration list for PBXNativeTarget "Half_Orange" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CDA46AF11BE2ABB000EF79CC /* Debug */,
 				CDA46AF21BE2ABB000EF79CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		CDA46AF31BE2ABB000EF79CC /* Build configuration list for PBXNativeTarget "Practica 4Tests" */ = {
+		CDA46AF31BE2ABB000EF79CC /* Build configuration list for PBXNativeTarget "Half_OrangeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CDA46AF41BE2ABB000EF79CC /* Debug */,
 				CDA46AF51BE2ABB000EF79CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		CDA46AF61BE2ABB000EF79CC /* Build configuration list for PBXNativeTarget "Practica 4UITests" */ = {
+		CDA46AF61BE2ABB000EF79CC /* Build configuration list for PBXNativeTarget "Half_OrangeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CDA46AF71BE2ABB000EF79CC /* Debug */,
 				CDA46AF81BE2ABB000EF79CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

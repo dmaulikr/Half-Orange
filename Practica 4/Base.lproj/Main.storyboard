@@ -1,25 +1,358 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Practica_4" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="redraw" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ffb-9K-TOR">
+                                <rect key="frame" x="165" y="90" width="270" height="420"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="VUK-4z-lo0">
+                                        <rect key="frame" x="0.0" y="0.0" width="270" height="147"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mi media naranja me mata" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8HF-sW-hM7">
+                                                <rect key="frame" x="0.0" y="0.0" width="270" height="20"/>
+                                                <animations/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¿Quieres saber el día exacto que morirás?  Continue e introduzca las fechas  solicitadas para saber tu día final" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fe4-DG-x4L">
+                                                <rect key="frame" x="0.0" y="80" width="270" height="67"/>
+                                                <animations/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <animations/>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tSC-nk-zcc">
+                                        <rect key="frame" x="103" y="388" width="64" height="32"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <state key="normal" title="Empezar"/>
+                                        <connections>
+                                            <segue destination="oVO-eQ-pHp" kind="presentation" identifier="ChooseBirthday" modalTransitionStyle="coverVertical" id="f4F-Hl-AMd"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="Et0-b8-9Ul">
+                                <rect key="frame" x="0.0" y="0.0" width="270" height="147"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cS2-9v-ciU">
+                                        <rect key="frame" x="0.0" y="0.0" width="270" height="20"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <animations/>
+                            </stackView>
+                        </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ffb-9K-TOR" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.7" id="0Ej-hb-JB8"/>
+                            <constraint firstItem="Et0-b8-9Ul" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EN4-x9-bF3"/>
+                            <constraint firstItem="ffb-9K-TOR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="F2w-ST-9IR"/>
+                            <constraint firstItem="ffb-9K-TOR" firstAttribute="centerY" secondItem="Et0-b8-9Ul" secondAttribute="centerY" id="Rn9-Ix-3sc"/>
+                            <constraint firstItem="ffb-9K-TOR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="o5B-HV-cQR"/>
+                            <constraint firstItem="ffb-9K-TOR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="oRy-rR-TBt"/>
+                            <constraint firstItem="ffb-9K-TOR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="q1u-NR-vUv"/>
+                            <constraint firstItem="Et0-b8-9Ul" firstAttribute="centerX" secondItem="ffb-9K-TOR" secondAttribute="centerX" id="yGn-e0-F0Y"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Et0-b8-9Ul"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="Rn9-Ix-3sc"/>
+                                <exclude reference="o5B-HV-cQR"/>
+                                <exclude reference="q1u-NR-vUv"/>
+                                <exclude reference="EN4-x9-bF3"/>
+                                <exclude reference="yGn-e0-F0Y"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="Et0-b8-9Ul"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="0Ej-hb-JB8"/>
+                                <exclude reference="F2w-ST-9IR"/>
+                                <include reference="Rn9-Ix-3sc"/>
+                                <include reference="o5B-HV-cQR"/>
+                                <exclude reference="oRy-rR-TBt"/>
+                                <include reference="q1u-NR-vUv"/>
+                                <include reference="EN4-x9-bF3"/>
+                                <include reference="yGn-e0-F0Y"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="welcomeText" destination="cS2-9v-ciU" id="uYC-1W-vBv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="243" y="339"/>
+        </scene>
+        <!--Love View Controller-->
+        <scene sceneID="TsC-Jm-H2v">
+            <objects>
+                <viewController id="Woq-qW-IjS" customClass="LoveViewController" customModule="Practica_4" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FED-9J-7kK"/>
+                        <viewControllerLayoutGuide type="bottom" id="G50-2A-HfG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="redraw" id="I9X-gk-Xg0">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="gT2-Ca-aZs">
+                                <rect key="frame" x="0.0" y="90" width="600" height="420"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seleccionar fecha de enamoramiento" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="mQO-a4-q6n">
+                                        <rect key="frame" x="160" y="0.0" width="280" height="25"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <datePicker contentMode="scaleToFill" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="1N7-QC-7xb">
+                                        <rect key="frame" x="0.0" y="45" width="600" height="298"/>
+                                        <animations/>
+                                        <date key="date" timeIntervalSinceReferenceDate="467842231.49756199">
+                                            <!--2015-10-29 20:10:31 +0000-->
+                                        </date>
+                                    </datePicker>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="nxT-mM-Ljr">
+                                        <rect key="frame" x="174" y="363" width="253" height="57"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e22-aG-iBQ">
+                                                <rect key="frame" x="0.0" y="0.0" width="36" height="57"/>
+                                                <animations/>
+                                                <state key="normal" title="Atrás"/>
+                                                <connections>
+                                                    <segue destination="STb-tP-Nwy" kind="unwind" unwindAction="gotoBirthday:" id="um1-yU-FJX"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5zP-ln-B8s">
+                                                <rect key="frame" x="86" y="0.0" width="61" height="57"/>
+                                                <animations/>
+                                                <state key="normal" title="Cancelar"/>
+                                                <connections>
+                                                    <segue destination="STb-tP-Nwy" kind="unwind" unwindAction="gotoRoot:" id="d1v-OV-Gl0"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e6O-Pa-aC2">
+                                                <rect key="frame" x="197" y="0.0" width="56" height="57"/>
+                                                <animations/>
+                                                <state key="normal" title="Calcular"/>
+                                                <connections>
+                                                    <segue destination="bQ3-oj-2G2" kind="presentation" identifier="Show death" modalTransitionStyle="partialCurl" id="Bjo-a0-TBR"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <animations/>
+                                    </stackView>
+                                </subviews>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstItem="1N7-QC-7xb" firstAttribute="width" secondItem="gT2-Ca-aZs" secondAttribute="width" id="c3s-FS-pHi"/>
+                                    <constraint firstItem="1N7-QC-7xb" firstAttribute="height" secondItem="gT2-Ca-aZs" secondAttribute="height" multiplier="0.6" id="uBs-YZ-G5R"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="uBs-YZ-G5R"/>
+                                    </mask>
+                                </variation>
+                            </stackView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="0.7925653995204256" blue="0.81550481893056959" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="gT2-Ca-aZs" firstAttribute="centerY" secondItem="I9X-gk-Xg0" secondAttribute="centerY" id="2TZ-fl-T0S"/>
+                            <constraint firstItem="gT2-Ca-aZs" firstAttribute="centerX" secondItem="I9X-gk-Xg0" secondAttribute="centerX" id="Rqj-hy-bvV"/>
+                            <constraint firstItem="gT2-Ca-aZs" firstAttribute="height" secondItem="I9X-gk-Xg0" secondAttribute="height" multiplier="0.7" id="X4J-zi-774"/>
+                            <constraint firstItem="gT2-Ca-aZs" firstAttribute="width" secondItem="I9X-gk-Xg0" secondAttribute="width" id="mUV-Vi-yPv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="loveDayPicker" destination="1N7-QC-7xb" id="cPV-wp-Yza"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iGR-go-M2M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="STb-tP-Nwy" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="243" y="1054"/>
+        </scene>
+        <!--Birthday View Controller-->
+        <scene sceneID="JoZ-Ni-wTQ">
+            <objects>
+                <viewController id="oVO-eQ-pHp" customClass="BirthdayViewController" customModule="Practica_4" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rvb-KE-oVe"/>
+                        <viewControllerLayoutGuide type="bottom" id="Wkc-oM-BiX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="redraw" id="ZWk-rS-d2I">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Arj-hw-PSf">
+                                <rect key="frame" x="0.0" y="90" width="600" height="420"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seleccione su fecha de nacimiento" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="pSJ-PU-K2m">
+                                        <rect key="frame" x="170" y="0.0" width="260" height="25"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="p1S-I7-8Pw">
+                                        <rect key="frame" x="0.0" y="45" width="600" height="298"/>
+                                        <animations/>
+                                        <date key="date" timeIntervalSinceReferenceDate="467841577.43044299">
+                                            <!--2015-10-29 19:59:37 +0000-->
+                                        </date>
+                                    </datePicker>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="QK8-iC-9OQ">
+                                        <rect key="frame" x="199" y="363" width="203" height="57"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8PM-nI-Jhs">
+                                                <rect key="frame" x="0.0" y="0.0" width="36" height="57"/>
+                                                <animations/>
+                                                <state key="normal" title="Atrás"/>
+                                                <connections>
+                                                    <segue destination="DN0-aK-Oyk" kind="unwind" unwindAction="gotoRoot:" id="vOK-fR-JVB"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FIf-8H-chc">
+                                                <rect key="frame" x="136" y="0.0" width="67" height="57"/>
+                                                <animations/>
+                                                <state key="normal" title="Continuar"/>
+                                                <connections>
+                                                    <segue destination="Woq-qW-IjS" kind="presentation" identifier="ChooseLove" modalTransitionStyle="crossDissolve" id="GYf-KM-gVm"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <animations/>
+                                    </stackView>
+                                </subviews>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstItem="p1S-I7-8Pw" firstAttribute="height" secondItem="Arj-hw-PSf" secondAttribute="height" multiplier="0.6" id="Yhj-rA-pTu"/>
+                                    <constraint firstItem="p1S-I7-8Pw" firstAttribute="width" secondItem="Arj-hw-PSf" secondAttribute="width" id="yCJ-g3-PDw"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Yhj-rA-pTu"/>
+                                    </mask>
+                                </variation>
+                            </stackView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.75405567998703737" green="0.9100291980916152" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Arj-hw-PSf" firstAttribute="centerY" secondItem="ZWk-rS-d2I" secondAttribute="centerY" id="2po-t2-ZEs"/>
+                            <constraint firstItem="Arj-hw-PSf" firstAttribute="height" secondItem="ZWk-rS-d2I" secondAttribute="height" multiplier="0.7" id="7KI-J0-DhQ"/>
+                            <constraint firstItem="Arj-hw-PSf" firstAttribute="width" secondItem="ZWk-rS-d2I" secondAttribute="width" id="ZhO-U2-uSk"/>
+                            <constraint firstItem="Arj-hw-PSf" firstAttribute="centerX" secondItem="ZWk-rS-d2I" secondAttribute="centerX" id="rTf-15-UfM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="birthdayPicker" destination="p1S-I7-8Pw" id="MuB-bM-RyU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ID6-Zs-tJL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="DN0-aK-Oyk" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="991" y="339"/>
+        </scene>
+        <!--Death View Controller-->
+        <scene sceneID="anO-ZI-jZ5">
+            <objects>
+                <viewController id="bQ3-oj-2G2" customClass="DeathViewController" customModule="Practica_4" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Uja-7M-sHX"/>
+                        <viewControllerLayoutGuide type="bottom" id="j34-WL-Kft"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="redraw" id="SLD-s1-nGN">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wLj-cl-lV6">
+                                <rect key="frame" x="241" y="90" width="119" height="420"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Nacimiento" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="llN-fp-oPr">
+                                        <rect key="frame" x="21" y="0.0" width="78" height="18"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Enamoramiento" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="1LM-Iw-5L7">
+                                        <rect key="frame" x="6" y="130" width="108" height="18"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Fallecimiento" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="lfg-Yb-zrc">
+                                        <rect key="frame" x="15" y="260" width="90" height="18"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hjk-t0-9tC">
+                                        <rect key="frame" x="0.0" y="390" width="119" height="30"/>
+                                        <animations/>
+                                        <state key="normal" title="Volver a empezar"/>
+                                        <connections>
+                                            <segue destination="YPU-44-gmZ" kind="unwind" unwindAction="gotoRoot:" id="5Im-1C-cnr"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                            </stackView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wLj-cl-lV6" firstAttribute="centerX" secondItem="SLD-s1-nGN" secondAttribute="centerX" id="BKn-pS-3ex"/>
+                            <constraint firstItem="wLj-cl-lV6" firstAttribute="centerY" secondItem="SLD-s1-nGN" secondAttribute="centerY" id="TWh-Gd-WRG"/>
+                            <constraint firstItem="wLj-cl-lV6" firstAttribute="height" secondItem="SLD-s1-nGN" secondAttribute="height" multiplier="0.7" id="fJ9-yP-XRC"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="birthdayLabel" destination="llN-fp-oPr" id="kx5-pd-eT7"/>
+                        <outlet property="deathLabel" destination="lfg-Yb-zrc" id="3hB-96-lIb"/>
+                        <outlet property="loveLabel" destination="1LM-Iw-5L7" id="zzn-KY-Ier"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jdk-MW-cn5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="YPU-44-gmZ" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1013" y="1054"/>
         </scene>
     </scenes>
 </document>
